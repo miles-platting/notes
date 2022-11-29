@@ -29,9 +29,7 @@ int main ()
 
 Then in a web page I add this link:
  
-
-  <a href = "cgi-ex1.cgi" target = "_blank">CGI test 1</a>
-
+<a href = "cgi-ex1.cgi" target = "_blank">CGI test 1</a>
 
 So basically I am creating a C++ file (or could be C), making it runnable and launching it via the web browser.
   
