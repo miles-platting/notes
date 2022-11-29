@@ -1,6 +1,6 @@
 # Notes for Stephen
 
-CGI and Web Assembly
+# CGI and Web Assembly
 
 A CGI (Common Gateway Interface) provides a simple way to pass a web request to a program and receive a reply for instance to inject or add something to a web page. 
 
@@ -8,8 +8,8 @@ The CGI test 1
 
 The simplest test just creates a simple new page
 
-```
-#include <iostream>
+## Source sample
+```c++
 using namespace std;
 int main ()
 {  cout << "Content-type:text/html\r\n\r\n";
