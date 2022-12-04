@@ -40,7 +40,7 @@ Clicking the link shows:
   in a new tab or a new page
 
 
-## Source sample Lua
+# Source sample Lua
 ```#!lua
 print("Content-Type: text/html\r\n\r\n")
 print("<h2>Hello, world! (Lua) from lua-test3.cgi without io.stdout:write</h2>\r\n")
