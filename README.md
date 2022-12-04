@@ -41,7 +41,7 @@ Clicking the link shows:
 
 
 ## Source sample Lua
-```#!lua
+#!lua
 print("Content-Type: text/html\r\n\r\n")
 print("<h2>Hello, world! (Lua) from lua-test3.cgi without io.stdout:write</h2>\r\n")
 print("The Lua interpreter is in /Users/dev/bin")
