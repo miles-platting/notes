@@ -40,7 +40,7 @@ Clicking the link shows:
   in a new tab or a new page
 
 
-# Source sample Lua
+## Source sample Lua
 ```#!lua
 print("Content-Type: text/html\r\n\r\n")
 print("<h2>Hello, world! (Lua) from lua-test3.cgi without io.stdout:write</h2>\r\n")
@@ -94,5 +94,5 @@ for k, v in pairs(vars) do
         print(tostring(k), " : ", tostring(v), " ", count, "<br/>\r\n")
         print(string.format("-> %03d v %30s %03d",tostring(k),v,tostring(count)),"<br/>")
         count = count + 1
-end```
+end
 
